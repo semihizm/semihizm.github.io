@@ -471,3 +471,41 @@ a:hover {
     border-style: solid;
     border-width: 15px 10px 50px;
 }
+@media (max-width: 768px) {
+    /* Genel 980px sınırlarını esnetir */
+    * {
+        max-width: 100% !important;
+    }
+
+    /* Üst banner'ın 980px sabitliğini bozar ve ekrana uydurur */
+    .ust {
+        min-width: 100%;
+        font-size: x-large; /* Telefonda başlık çok büyük olmasın diye küçültüyoruz */
+    }
+
+    /* Sol menü ve açıklamayı yan yana değil, alt alta dizer */
+    .orta {
+        flex-direction: column;
+    }
+
+    /* Sol menüyü (%100 genişlik) en üste alır */
+    .hayvanlar {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    /* Yazı kutusunun sabit yüksekliğini iptal eder, yazı uzadıkça kutu da uzar (taşmayı engeller) */
+    .acıklama {
+        width: 100%;
+        height: auto; 
+    }
+
+    /* Alttaki tüm üçlü resim sıralarını yan yana değil, alt alta tam ortalı dizer */
+    .karinca, .gecko, .aksolotl, .bengal, .cincila, .pacman, .neo, .peygamber, .yilan {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        min-height: auto;
+    }
+}
