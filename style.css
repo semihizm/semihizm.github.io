@@ -471,7 +471,7 @@ a:hover {
     border-style: solid;
     border-width: 15px 10px 50px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     /* Genel 980px sınırlarını esnetir */
     * {
         max-width: 100% !important;
