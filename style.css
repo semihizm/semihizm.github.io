@@ -1,0 +1,473 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 980px;
+}
+
+ul {
+    list-style: none;
+    font-size: large;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: deeppink;
+    font-style: italic;
+}
+
+.ust {
+    background-image: url('img/ogzearkapl.jpg');
+    min-width: 980px;
+    min-height: 100px;
+    border: black;
+    border-style: solid;
+    border-radius: 30px;
+    text-align: center;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+.orta {
+    display: flex;
+    gap: 0;
+    margin: 0;
+}
+
+.hayvanlar {
+    border: 5px black;
+    border-style: solid;
+    border-radius: 20px;
+    height: 25 0px;
+    margin: 0;
+    width: 150px;
+    flex-shrink: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.acıklama {
+    height: 300px;
+    width: 786px;
+    flex-shrink: 0;
+    margin: 0;
+    text-align: left;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+.karinca {
+    min-height: 200px;
+    width: 980px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.karincabir {
+    background-image: url('img/karincabir.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.karincaiki {
+    background-image: url('img/karincaiki.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.karincauc {
+    background-image: url('img/karincauc.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.gecko {
+    min-height: 200px;
+    width: 980px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.geckobir {
+    background-image: url('img/geckobir.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.geckoiki {
+    background-image: url('img/geckoiki.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.geckouc {
+    background-image: url('img/geckouc.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.aksolotl {
+    min-height: 200px;
+    width: 980px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.aksolotlbir {
+    background-image: url('img/aksolotlbir.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.aksolotliki {
+    background-image: url('img/aksolotliki.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.aksolotluc {
+    background-image: url('img/aksolotluc.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.bengal {
+    min-height: 200px;
+    width: 980px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.bengalbir {
+    background-image: url('img/bengalbir.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.bengaliki {
+    background-image: url('img/bengaliki.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.bengaluc {
+    background-image: url('img/bengaluc.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.cincila {
+    min-height: 200px;
+    width: 980px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.cincilabir {
+    background-image: url('img/cincilabir.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.cincilaiki {
+    background-image: url('img/cincilaiki.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.cincilauc {
+    background-image: url('img/cincilauc.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.pacman {
+    min-height: 200px;
+    width: 980px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.pacmanbir {
+    background-image: url('img/pacmanbir.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.pacmaniki {
+    background-image: url('img/pacmaniki.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.pacmanuc {
+    background-image: url('img/pacmanuc.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.neo {
+    min-height: 200px;
+    width: 980px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.neobir {
+    background-image: url('img/neobir.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.neoiki {
+    background-image: url('img/neoiki.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.neouc {
+    background-image: url('img/neouc.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.peygamber {
+    min-height: 200px;
+    width: 980px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.peygamberbir {
+    background-image: url('img/peygamberbir.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.peygamberiki {
+    background-image: url('img/peygamberiki.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.peygamberuc {
+    background-image: url('img/peygamberuc.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.yilan {
+    min-height: 200px;
+    width: 980px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.yilanbir {
+    background-image: url('img/yilanbir.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.yilaniki {
+    background-image: url('img/yilaniki.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
+
+.yilanuc {
+    background-image: url('img/yilanuc.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(79, 79, 79);
+    border-style: solid;
+    border-width: 15px 10px 50px;
+}
